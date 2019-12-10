@@ -1,0 +1,8 @@
+version: "3.7"
+
+services:
+  advent:
+    working_dir: /app
+    image: elixir
+    volumes:
+      - .:/app
